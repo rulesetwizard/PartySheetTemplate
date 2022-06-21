@@ -1,0 +1,56 @@
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <XMLFiles>
+    <XmlName>toolbar_ps</XmlName>
+    <FolderID>0</FolderID>
+    <XML>&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
+&lt;root&gt;
+	&lt;template name="toolbar_ps"&gt;
+			&lt;toolbar_30 name="drawtools"&gt;
+				&lt;button&gt;
+					&lt;id&gt;paint&lt;/id&gt;
+					&lt;icon&gt;tool_paint_30&lt;/icon&gt;
+					&lt;tooltipres&gt;image_tooltip_toolbardraw&lt;/tooltipres&gt;
+				&lt;/button&gt;
+				&lt;button&gt;
+					&lt;id&gt;erase&lt;/id&gt;
+					&lt;icon&gt;tool_erase_30&lt;/icon&gt;
+					&lt;tooltipres&gt;image_tooltip_toolbarerase&lt;/tooltipres&gt;
+				&lt;/button&gt;
+				&lt;toggle /&gt;
+				&lt;script&gt;
+					function onValueChanged()
+						local sDrawTool = window.image.getDrawingTool();
+						if sDrawTool then
+							if sDrawTool == "erase" then
+								setActive("erase");
+							else
+								setActive("paint");
+							end
+							return;
+						end
+						
+						setActive("");
+					end
+					
+					function onButtonPress(id)
+						if id == "paint" then
+							if window.image.getDrawingTool() ~= "paint" then
+								window.image.setDrawingTool("paint");
+							else
+								window.image.setDrawingTool("");
+							end
+						elseif id == "erase" then
+							if window.image.getDrawingTool() ~= "erase" then
+								window.image.setDrawingTool("erase");
+							else
+								window.image.setDrawingTool("");
+							end
+						end
+					end
+				&lt;/script&gt;
+			&lt;/toolbar_30&gt;	
+	&lt;/template&gt;
+&lt;/root&gt;      
+    </XML>
+  </XMLFiles>
+</DocumentElement>

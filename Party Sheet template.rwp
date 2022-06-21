@@ -4,11 +4,13 @@
     <Name>Party Sheet template</Name>
     <CompilationType>Extension</CompilationType>
     <Description />
+    <DisplayName />
+    <DisplayVersion />
     <Author />
     <Website />
     <Version>1</Version>
     <Release>0</Release>
-    <RulesetWizardVersion>0.8.0</RulesetWizardVersion>
+    <RulesetWizardVersion>0.8.1</RulesetWizardVersion>
     <RulesetList>CoreRPG</RulesetList>
     <LoadOrder />
     <Comments />
@@ -25,7 +27,7 @@
     <Announcement3 />
     <Announcement3Font />
     <Announcement3Icon />
-    <ExcludeRSWScripts>false</ExcludeRSWScripts>
+    <ExcludeRSWScripts>true</ExcludeRSWScripts>
     <CompileToFolder>false</CompileToFolder>
     <DefaultEncoding>iso-8859-1</DefaultEncoding>
   </RulesetProperties>

@@ -247,7 +247,7 @@
       {"Name":"MaximumWidth"},
       {"Name":"MergeWindow"},
       {"Name":"MinimizedIcon"},
-      {"Name":"MinimumHeight","Value":{"@xsi:type":"xsd:int","#text":"500"}},
+      {"Name":"MinimumHeight","Value":{"@xsi:type":"xsd:int","#text":"580"}},
       {"Name":"MinimumWidth","Value":{"@xsi:type":"xsd:int","#text":"770"}},
       {"Name":"NoClose"},
       {"Name":"NoDelete","Value":{"@xsi:type":"xsd:boolean","#text":"true"}},
@@ -266,6 +266,7 @@
       {"Name":"Tooltip"},
       {"Name":"TooltipField"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
+      {"Name":"WindowMargins","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"WindowTitle","Value":{"@xsi:type":"xsd:string","#text":"Party Sheet"}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"0"}}

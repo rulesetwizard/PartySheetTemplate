@@ -1715,7 +1715,7 @@ end</LUACode>
       {"Name":"DevelopmentComments"},
       {"Name":"Disabled"},
       {"Name":"Dynamic"},
-      {"Name":"FrameName"},
+      {"Name":"FrameName","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"3"}},
       {"Name":"HostControl"},
       {"Name":"HoverCursor"},

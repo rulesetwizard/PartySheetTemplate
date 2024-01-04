@@ -71,9 +71,9 @@
       {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
       {"Name":"DataSource","Value":{"@xsi:type":"xsd:string","#text":".partyinformation"}},
-      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"355"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"344"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
-      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"579"}},
+      {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"569"}},
       {"Name":"DevelopmentComments"},
       {"Name":"Disabled"},
       {"Name":"DynamicSize"},
@@ -112,7 +112,7 @@
       {"Name":"WindowListClassName","Value":{"@xsi:type":"xsd:string","#text":"ps_mainitem"}},
       {"Name":"WindowListFilterBy","Value":{"@xsi:type":"FilterByDefinition","FilterSourceType":"Control","FilterOnSourceType":"Control"}},
       {"Name":"WindowListSortBy","Value":{"@xsi:type":"ArrayOfSortByDefinition","SortByDefinition":{"Descending":{"@xsi:nil":"true"},"SourceType":"Control","SourceName":"name"}}},
-      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"1"}},
+      {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"12"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"43"}}
 ]}}</Definition>
     <LUACode />
@@ -199,7 +199,7 @@
       {"Name":"DevelopmentComments"},
       {"Name":"Disabled"},
       {"Name":"Dynamic"},
-      {"Name":"FrameName"},
+      {"Name":"FrameName","Value":{"@xsi:type":"xsd:string","#text":"groupbox"}},
       {"Name":"HorizontalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"HostControl"},
       {"Name":"HoverCursor"},
@@ -230,7 +230,7 @@
       {"Name":"TooltipField"},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"WindowClassCopy"},
-      {"Name":"WindowMargins"},
+      {"Name":"WindowMargins","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"WindowTitle"},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"0"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"0"}}

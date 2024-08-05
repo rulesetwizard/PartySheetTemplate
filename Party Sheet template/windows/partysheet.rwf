@@ -414,7 +414,7 @@
       {"Name":"ControlName","Value":{"@xsi:type":"xsd:string","#text":"tabs"}},
       {"Name":"CustomAnchoring","Value":{"@xsi:type":"ArrayOfAnchorDefinition"}},
       {"Name":"CustomProperties","Value":{"@xsi:type":"ArrayOfCustomProperty"}},
-      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"225"}},
+      {"Name":"DesignerHeight","Value":{"@xsi:type":"xsd:int","#text":"226"}},
       {"Name":"DesignerLocked","Value":{"@xsi:type":"xsd:boolean","#text":"false"}},
       {"Name":"DesignerWidth","Value":{"@xsi:type":"xsd:int","#text":"18"}},
       {"Name":"DevelopmentComments"},
@@ -453,7 +453,7 @@
       {"Name":"Tooltip"},
       {"Name":"UseAsTemplate","Value":{"@xsi:type":"xsd:string"}},
       {"Name":"VerticalAnchor","Value":{"@xsi:type":"xsd:int","#text":"0"}},
-      {"Name":"VerticalTabItems","Value":{"@xsi:type":"ArrayOfVerticalTabDefinition","VerticalTabDefinition":[{"Icon":"tab_main","SubWindowName":"main"},{"Icon":"tab_inventory","SubWindowName":"inventory"},{"Icon":"tab_order","SubWindowName":"order"}]}},
+      {"Name":"VerticalTabItems","Value":{"@xsi:type":"ArrayOfVerticalTabDefinition","VerticalTabDefinition":[{"Label":"Main","Icon":null,"SubWindowName":"main"},{"Icon":"Inventory","SubWindowName":"inventory"},{"Label":"Order","Icon":null,"SubWindowName":"order"}]}},
       {"Name":"XPos","Value":{"@xsi:type":"xsd:int","#text":"748"}},
       {"Name":"YPos","Value":{"@xsi:type":"xsd:int","#text":"50"}}
 ]}}</Definition>
